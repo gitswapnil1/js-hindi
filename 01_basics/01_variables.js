@@ -7,6 +7,11 @@ let accountState;
 
 // accountId = 144562 not allowed
 
+/*
+Perfer not to use var kayword 
+beacuse to block scope & functional scope
+*/
+
 accountEmail = "gc@yahoo.com"
 accountPassword = "908as"
 accountCity="Jaipur"
