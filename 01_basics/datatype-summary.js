@@ -10,7 +10,7 @@ let userEmail;
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log(id === anotherId)
+// console.log(id === anotherId)
 
 const bigNumber = 3456463433232432n
 
@@ -26,3 +26,26 @@ let myObj = {
 let myFunction = function(){
     console.log("Hello World!!");
 }
+
+// -------------------------------------------------------------------------------------------
+// Two types of memory: Stack(Primitive) & Heap(Non-primitive)
+
+let myChannelname = "imaginelife"
+
+let mysecondChannel = myChannelname;
+
+mysecondChannel = "thirdChannelName"
+
+// console.log(myChannelname);
+// console.log(mysecondChannel);
+
+let userOne = {
+    email: "userone@google.com",
+    upi: "userone@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email("usertwo@google.com")
+
+console.log(userOne.email);
+console.log(userTwo.email);
